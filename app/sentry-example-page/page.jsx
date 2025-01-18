@@ -18,6 +18,7 @@ export default function Page() {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
+          
         }}
       >
         <h1 style={{ fontSize: "4rem", margin: "14px 0" }}>

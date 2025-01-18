@@ -68,13 +68,14 @@
 
 @layer base {
   * {
-    @apply border-border !scroll-smooth;
+    border: var(--border);
+    scroll-behavior: smooth;
   }
   body {
     @apply bg-background text-foreground;
   }
   button {
-    @apply active:outline-none;
+    outline: none;
   }
 }
 
